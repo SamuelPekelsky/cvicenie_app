@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".welcomeabs"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/black"
+        >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="80dp"
+        android:background="@drawable/mybutton"
+        android:tag="beginner"
+        android:text="BEGInNER"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="260dp"
+        android:onClick="prechodnadruhycvik"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="80dp"
+        android:background="@drawable/mybutton"
+        android:onClick="prechodnadruhycvik"
+        android:tag="intermediate"
+        android:text="intermediate"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="320dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="80dp"
+        android:background="@drawable/mybutton"
+        android:onClick="prechodnadruhycvik"
+        android:tag="advanced"
+        android:text="advanced"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="380dp"/>
+    </FrameLayout>
+
+</LinearLayout>
